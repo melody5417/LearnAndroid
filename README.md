@@ -1,2 +1,8 @@
 # LearnAndroid
-practise of https://developer.android.com/guide/ 
+practise of [GUIDE](https://developer.android.com/guide/)
+
+* [FirstAndroidApp](https://developer.android.com/training/basics/firstapp/creating-project)
+* 
+
+
+
