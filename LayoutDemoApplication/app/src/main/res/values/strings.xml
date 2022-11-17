@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EmptyApplication</string>
+    <string name="app_name">DemoApplication</string>
     <string name="MainInput">Input</string>
     <string name="MainSend">Send</string>
     <string name="SecondActivity">Second Activity</string>
