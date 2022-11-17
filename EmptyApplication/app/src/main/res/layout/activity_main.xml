@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+                android:id="@+id/input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints="autofillHints"
+                android:hint="@string/MainInputHint"
+                android:inputType="text"
+                android:text="@string/MainInput">
+
+        </EditText>
+
+        <Button
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/MainSend"
+                android:onClick="handleClick">
+
+        </Button>
+    </LinearLayout>
+
+    <Button android:id="@+id/goLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MainGoLayout"
+            android:onClick="handleClick">
+
+    </Button>
+
+
+</LinearLayout>
