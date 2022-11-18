@@ -11,21 +11,52 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = "MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(TAG + " LifeCycle", "onCreate");
         setContentView(R.layout.activity_main);
+    }
 
-        Log.d("MainActivity", "onCreate");
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d(TAG + " LifeCycle", "onStart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d(TAG + " LifeCycle", "onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d(TAG + " LifeCycle", "onPause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d(TAG + " LifeCycle", "onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG + " LifeCycle", "onDestroy");
     }
 
     public void handleClick(View v) {
-        Log.d("MainActivity", "handleClick");
+        Log.d(TAG, "handleClick");
 
         if (v.getId() == R.id.send) {
             EditText editText = findViewById(R.id.input);
             String inputText = editText.getText().toString();
-            Log.d("MainActivity", "Input is " + inputText);
+            Log.d(TAG, "Input is " + inputText);
 
             // 显示启动1 class跳转
 //        Intent intent = new Intent(this, SecondActivity.class);

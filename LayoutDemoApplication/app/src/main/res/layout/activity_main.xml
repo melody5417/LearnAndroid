@@ -38,5 +38,15 @@
 
     </Button>
 
+<!--    静态调用-->
+    <fragment
+            android:id="@+id/blankFragment"
+            android:name="com.melody.emptyapplication.BlankFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+    </fragment>
+
 
 </LinearLayout>

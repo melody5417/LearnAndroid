@@ -6,4 +6,8 @@
     <string name="SecondReturn">Return</string>
     <string name="MainGoLayout">GoLayout</string>
     <string name="MainInputHint">hint</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_blank_fragment">change</string>
+    <string name="FragmentButton">Fragment, return</string>
+    <string name="FragmentChangeButton">Change</string>
 </resources>
