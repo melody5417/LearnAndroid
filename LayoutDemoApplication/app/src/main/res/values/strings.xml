@@ -10,4 +10,10 @@
     <string name="new_blank_fragment">change</string>
     <string name="FragmentButton">Fragment, return</string>
     <string name="FragmentChangeButton">Change</string>
+    <string name="FragmentInterfaceTitle1">title1</string>
+    <string name="FragmentInterfaceTitle2">title2</string>
+    <string name="FragmentInterfaceTitle3">title3</string>
+    <string name="FragmentInterfaceTitle4">title4</string>
+    <string name="FragmentInterfaceTitle5">title5</string>
+    <string name="FragmentInterfaceTitle6">title6</string>
 </resources>
