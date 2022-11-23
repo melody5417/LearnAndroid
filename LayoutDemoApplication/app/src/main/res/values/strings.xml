@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">DemoApplication</string>
+    <string name="hello">你好</string>
+    <string name="user_greeting">打个招呼</string>
     <string name="MainInput">Input</string>
     <string name="MainSend">Send</string>
     <string name="SecondActivity">Second Activity</string>
@@ -16,4 +18,5 @@
     <string name="FragmentInterfaceTitle4">title4</string>
     <string name="FragmentInterfaceTitle5">title5</string>
     <string name="FragmentInterfaceTitle6">title6</string>
+    <string name="baidu">http://www.baidu.com</string>
 </resources>
